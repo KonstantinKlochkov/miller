@@ -7,15 +7,15 @@ development:
   <<: *default
   database: miller_development
   host: localhost
-  username: pguser
-  password: 1024
+  username: rails
+  password: rails
 
 test:
   <<: *default
   database: miller_test
   host: localhost
-  username: pguser
-  password: 1024
+  username: rails
+  password: rails
 
 production:
   <<: *default
